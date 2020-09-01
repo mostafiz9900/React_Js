@@ -1,16 +1,16 @@
 import React from 'react';
 import './App.css';
-import Refresh from './mycomponent/UpdateRefresh';
-import Newdemo from './mycomponent/Newdemo';
-import Anotherdemo from './mycomponent/Anotherdemo';
+import JsonList from './mycomponent/JsonList';
+
+
 
 
 function App() {
   return (
     <div className="App">     
-  <Refresh/>
-  <Newdemo/>
-  <Anotherdemo/>
+
+
+<JsonList/>
     </div>
   );
 }
